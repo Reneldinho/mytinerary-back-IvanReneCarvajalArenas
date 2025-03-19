@@ -1,8 +1,10 @@
 import express from "express"
+import "dotenv/config.js"
 
 const serverSprint2 = express()
 
-const port = 8080
+const port = process.env.PORT || 8080
+
 
 const readySprint2 = console.log("Server is ready in port:", port);
 
