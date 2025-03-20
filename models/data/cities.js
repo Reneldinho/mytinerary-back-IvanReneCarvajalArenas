@@ -6,7 +6,7 @@ let cities = [
     {
         "cityName": "Madrid",
         "cityCountry": "Spain",
-        "cityPhoto": "https://example.com/madrid.jpg",
+        "cityPhoto": "https://dmn-dallas-news-prod.cdn.arcpublishing.com/resizer/v2/46AXQFD5Z5AEHHLNME22AATVZA.JPG?auth=cfaa6feb44404d06fc8bcba674ba2c00eb75ad8218960f6fbcd24b90c9504443&height=553&width=830&smart=true&quality=80,
         "cityDescription": "The vibrant capital of Spain, known for its art, culture, and lively atmosphere.",
         "localCurrency": "EUR",
         "importantRestaurants": "DiverXO, Casa Lucio, Sobrino de Botín",
@@ -18,7 +18,7 @@ let cities = [
     {
         "cityName": "New York",
         "cityCountry": "USA",
-        "cityPhoto": "https://example.com/newyork.jpg",
+        "cityPhoto": "https://images.unsplash.com/photo-1536031696538-924fe11c7037?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "cityDescription": "A bustling metropolis known for its iconic skyline and vibrant culture.",
         "localCurrency": "USD",
         "importantRestaurants": "Le Bernardin, Katz's Delicatessen, Gramercy Tavern",
@@ -30,7 +30,7 @@ let cities = [
     {
         "cityName": "Paris",
         "cityCountry": "France",
-        "cityPhoto": "https://example.com/paris.jpg",
+        "cityPhoto": "https://images.unsplash.com/photo-1679231926885-0287bbe32008?q=80&w=1991&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "cityDescription": "The city of love, known for its art, fashion, and iconic landmarks.",
         "localCurrency": "EUR",
         "importantRestaurants": "Le Meurice, L'Ambroisie, Septime",
@@ -42,7 +42,7 @@ let cities = [
     {
         "cityName": "Tokyo",
         "cityCountry": "Japan",
-        "cityPhoto": "https://example.com/tokyo.jpg",
+        "cityPhoto": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.vecteezy.com%2Ffoto%2F2009068-vista-aerea-de-la-ciudad-de-tokio-japon&psig=AOvVaw1UnrsROhfMLgQWQQ7LNl0p&ust=1742569139137000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCOjfxJn2mIwDFQAAAAAdAAAAABAE",
         "cityDescription": "A futuristic city blending ancient culture with modern technology.",
         "localCurrency": "JPY",
         "importantRestaurants": "Sukiyabashi Jiro, Narisawa, Den",
@@ -54,7 +54,7 @@ let cities = [
     {
         "cityName": "London",
         "cityCountry": "United Kingdom",
-        "cityPhoto": "https://example.com/london.jpg",
+        "cityPhoto": "https://fotografias.lasexta.com/clipping/cmsimages02/2018/02/02/0A8C13C7-BCBF-451C-887D-E6EB10997DE2/97.jpg?crop=1300,731,x0,y68&width=1600&height=900&optimize=high&format=webply",
         "cityDescription": "A historic city known for its landmarks, culture, and global influence.",
         "localCurrency": "GBP",
         "importantRestaurants": "The Ledbury, Dishoom, Sketch",
@@ -66,7 +66,7 @@ let cities = [
     {
         "cityName": "Dubai",
         "cityCountry": "UAE",
-        "cityPhoto": "https://example.com/dubai.jpg",
+        "cityPhoto": "https://images.pexels.com/photos/3763190/pexels-photo-3763190.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         "cityDescription": "A luxurious desert metropolis with futuristic architecture.",
         "localCurrency": "AED",
         "importantRestaurants": "Pierchic, Nobu Dubai, Zuma",
@@ -78,7 +78,7 @@ let cities = [
     {
         "cityName": "Buenos Aires",
         "cityCountry": "Argentina",
-        "cityPhoto": "https://example.com/buenosaires.jpg",
+        "cityPhoto": "https://img.freepik.com/fotos-premium/vista-aerea-obelisco-buenos-aires-dron_686512-17.jpg?w=1060",
         "cityDescription": "The Paris of South America, known for its tango and vibrant nightlife.",
         "localCurrency": "ARS",
         "importantRestaurants": "Don Julio, La Cabrera, Tegui",
@@ -90,7 +90,7 @@ let cities = [
     {
         "cityName": "Bucaramanga",
         "cityCountry": "Colombia",
-        "cityPhoto": "https://example.com/bucaramanga.jpg",
+        "cityPhoto": "https://upload.wikimedia.org/wikipedia/commons/1/16/Bucaramanga_desde_mirador.jpg",
         "cityDescription": "The Beautiful City of Colombia, known for its parks and pleasant climate.",
         "localCurrency": "COP",
         "importantRestaurants": "El Tony, La Carreta, Mercagan",
@@ -102,7 +102,7 @@ let cities = [
     {
         "cityName": "Rome",
         "cityCountry": "Italy",
-        "cityPhoto": "https://example.com/rome.jpg",
+        "cityPhoto": "https://roma-bella.com/wp-content/uploads/2017/01/Roma-veduta-aerea.jpg",
         "cityDescription": "The Eternal City, home to ancient history and world-famous landmarks.",
         "localCurrency": "EUR",
         "importantRestaurants": "Roscioli, La Pergola, Trattoria Pennestri",
@@ -114,7 +114,7 @@ let cities = [
     {
         "cityName": "Berlin",
         "cityCountry": "Germany",
-        "cityPhoto": "https://example.com/berlin.jpg",
+        "cityPhoto": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/16-07-04-Abflug-Berlin-DSC_0122.jpg/1280px-16-07-04-Abflug-Berlin-DSC_0122.jpg",
         "cityDescription": "Germany's capital, known for its history, art scene, and vibrant nightlife.",
         "localCurrency": "EUR",
         "importantRestaurants": "Tim Raue, Nobelhart & Schmutzig, Cookies Cream",
@@ -126,7 +126,7 @@ let cities = [
     {
         "cityName": "Bangkok",
         "cityCountry": "Thailand",
-        "cityPhoto": "https://example.com/bangkok.jpg",
+        "cityPhoto": "https://www.visitsoutheastasia.travel/wp-content/uploads/2019/10/Thailand-Bangkok.jpg",
         "cityDescription": "A bustling city known for its street food, temples, and vibrant culture.",
         "localCurrency": "THB",
         "importantRestaurants": "Gaggan, Raan Jay Fai, Bo.lan",
@@ -138,7 +138,7 @@ let cities = [
     {
         "cityName": "Sydney",
         "cityCountry": "Australia",
-        "cityPhoto": "https://example.com/sydney.jpg",
+        "cityPhoto": "https://get.pxhere.com/photo/horizon-skyline-city-skyscraper-cityscape-panorama-downtown-tower-sydney-tower-block-australia-skyscrapers-metropolis-neighbourhood-bird's-eye-view-aerial-photography-urban-area-residential-area-geographical-feature-human-settlement-atmosphere-of-earth-metropolitan-area-676422.jpg",
         "cityDescription": "A stunning harbor city famous for its beaches and landmarks.",
         "localCurrency": "AUD",
         "importantRestaurants": "Quay, Bennelong, Tetsuya’s",
@@ -150,7 +150,7 @@ let cities = [
     {
         "cityName": "Rio de Janeiro",
         "cityCountry": "Brazil",
-        "cityPhoto": "https://example.com/rio.jpg",
+        "cityPhoto": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.vecteezy.com%2Ffoto%2F7426956-rio-de-janeiro-rio-de-janeiro-brasil-alrededor-de-octubre-2019-vista-aerea-de-cristo-redentor-cristo-redentor-estatua-sobre-rio-de-janeiro-ciudad-brasil&psig=AOvVaw0gG-0N5EliMKQqjxLeMgg-&ust=1742572054852000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCMjEh_6AmYwDFQAAAAAdAAAAABAx",
         "cityDescription": "A city of samba, beaches, and the iconic Christ the Redeemer.",
         "localCurrency": "BRL",
         "importantRestaurants": "Fogo de Chão, Aprazível, CT Boucherie",
@@ -162,7 +162,7 @@ let cities = [
     {
         "cityName": "Cape Town",
         "cityCountry": "South Africa",
-        "cityPhoto": "https://example.com/capetown.jpg",
+        "cityPhoto": "https://wp-growpro.s3-eu-west-1.amazonaws.com/media/2018/04/Que-ver-en-Ciudad-del-Cabo-10-Lugares-que-no-te-puedes-perder.jpg",
         "cityDescription": "A city with stunning landscapes, beaches, and cultural diversity.",
         "localCurrency": "ZAR",
         "importantRestaurants": "La Colombe, Test Kitchen, Fyn",
@@ -174,7 +174,7 @@ let cities = [
     {
         "cityName": "Istanbul",
         "cityCountry": "Turkey",
-        "cityPhoto": "https://example.com/istanbul.jpg",
+        "cityPhoto": "https://img.freepik.com/fotos-premium/barco-turistico-cuerno-oro-estambul-noche-turquia_483040-1324.jpg?w=826",
         "cityDescription": "A historic city where East meets West, rich in culture and architecture.",
         "localCurrency": "TRY",
         "importantRestaurants": "Mikla, Nusr-Et, Karaköy Lokantası",
