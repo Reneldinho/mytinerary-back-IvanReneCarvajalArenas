@@ -7,8 +7,7 @@
   "scripts": {
     "start": "node ./server.js",
     "dev": "nodemon server.js",
-    "dataCities":"node ./models/data/cities.js"
-    
+    "dataCities": "node ./models/data/cities.js"
   },
   "repository": {
     "type": "git",
@@ -22,9 +21,11 @@
   },
   "homepage": "https://github.com/Reneldinho/mytinerary-back-IvanReneCarvajalArenas#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
-    "mongoose": "^8.12.1"
+    "mongoose": "^8.12.1",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.9"
