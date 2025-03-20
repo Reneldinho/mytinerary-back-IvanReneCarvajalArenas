@@ -6,7 +6,7 @@ let cities = [
     {
         "cityName": "Madrid",
         "cityCountry": "Spain",
-        "cityPhoto": "https://dmn-dallas-news-prod.cdn.arcpublishing.com/resizer/v2/46AXQFD5Z5AEHHLNME22AATVZA.JPG?auth=cfaa6feb44404d06fc8bcba674ba2c00eb75ad8218960f6fbcd24b90c9504443&height=553&width=830&smart=true&quality=80,
+        "cityPhoto": "https://dmn-dallas-news-prod.cdn.arcpublishing.com/resizer/v2/46AXQFD5Z5AEHHLNME22AATVZA.JPG?auth=cfaa6feb44404d06fc8bcba674ba2c00eb75ad8218960f6fbcd24b90c9504443&height=553&width=830&smart=true&quality=80",
         "cityDescription": "The vibrant capital of Spain, known for its art, culture, and lively atmosphere.",
         "localCurrency": "EUR",
         "importantRestaurants": "DiverXO, Casa Lucio, Sobrino de Botín",
