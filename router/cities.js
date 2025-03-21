@@ -1,7 +1,10 @@
 import { Router } from "express";
-import cityReadcontroller from "../controllers/cities/read.js";
+import allCities from "../controllers/cities/read.js";
 
 
-const routerCities = Router()
+const routerCities = Router();
+
+routerCities.get("/allCities", allCities)
+
 
 export default routerCities
