@@ -14,7 +14,7 @@ let allCities = async (req, res, next) => {
 }
 
 
-let cityByid = async (req, res, next) => {
+let cityById = async (req, res, next) => {
     try {
         let idQuery = req.params.idParams;
         let cityId = await City.findById(idQuery);
@@ -28,4 +28,4 @@ let cityByid = async (req, res, next) => {
     }
 };
 
-export { allCities, cityByid }
+export { allCities, cityById }
