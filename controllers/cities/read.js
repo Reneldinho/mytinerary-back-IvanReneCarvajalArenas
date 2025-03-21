@@ -1,16 +1,31 @@
 import City from "../../models/City.js"
 
-let allCities = async (req,res,next)=>{
+let allCities = async (req, res, next) => {
     try {
         let all = await City.find()
         return res.status(200).json({
-            response:all
+            response: all
         })
     } catch (error) {
         return res.status(500).json({
-            response:error
+            response: error
         })
     }
 }
 
-export default allCities
+
+let cityByid = async (req, res, next) => {
+    try {
+        let idQuery = req.params.idParams;
+        let cityId = await City.findById(idQuery);
+        return res.status(200).json({
+            response: cityId
+        });
+    } catch (error) {
+        return res.status(500).json({
+            response: error
+        });
+    }
+};
+
+export { allCities, cityByid }
