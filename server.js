@@ -4,6 +4,10 @@ import "./config/database.js"
 import cors from "cors"
 import morgan from "morgan"
 import routerIndex from "./router/index.js"
+import Bad_Request from "./middlewares/error_400.js"
+import not_found from "./middlewares/error_404.js"
+import internal_server_error from "./middlewares/error_500.js"
+
 
 //SERVIDOR
 const serverSprint2 = express()
@@ -21,6 +25,11 @@ serverSprint2.use(morgan("dev"))
 
 //ENRUTADOR
 serverSprint2.use("/api", routerIndex)
+
+//MIDDLEWARES DE MANEJO DE ERRORES
+serverSprint2.use(Bad_Request)
+serverSprint2.use(not_found)
+serverSprint2.use(internal_server_error)
 
 
 

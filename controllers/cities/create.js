@@ -8,9 +8,7 @@ let createCity = async (req, res, next) => {
             response: createNewCity
         });
     } catch (error) {
-        return res.status(500).json({
-            response: error
-        });
+        next(error)
     }
 };
 
@@ -22,9 +20,7 @@ let createManyCities = async (req, res, next) => {
             response: createNewCities
         });
     } catch (error) {
-        return res.status(500).json({
-            response: error
-        });
+        next(error)
     }
 };
 
